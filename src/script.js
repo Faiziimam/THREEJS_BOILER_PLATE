@@ -3,6 +3,18 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import * as dat from 'dat.gui'
 
+// Texture
+//!Loading Manager Function(onStart,onProgress,onError,onLoad)
+const loadingManager = new THREE.LoadingManager();
+// Texture-Loader
+const textureLoader = new THREE.TextureLoader();
+// Use map,aomap and more to render these texture
+// mesh.geometry.setAttribute(   //!se this for aoMap
+//     'uv2',
+//     new THREE.Float32BufferAttribute(walls.geometry.attributes.uv.array, 2)
+//   );
+
+
 // Debug
 const gui = new dat.GUI()
 
