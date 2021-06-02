@@ -1,8 +1,13 @@
 # Three.js Starter
-Courtesy of Bruno Simon of https://threejs-journey.xyz/
+Credit : Bruno Simon 
+
+This is to help people who hate writing same thing again and again or are lazy like me.
+
 
 ## Setup
+
 Download [Node.js](https://nodejs.org/en/download/).
+
 Run this followed commands:
 
 ``` bash
